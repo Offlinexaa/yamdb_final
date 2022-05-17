@@ -1,4 +1,4 @@
-# api_yamdb (Dockered)
+# api_yamdb (Dockered and GitHub Actioned)
 
 Расширяемая база рецензий и отзывов. Предоставляет доступ через web-интерфейс и c использованием REST API. Подготовлена для запуска в контейнере.
 
