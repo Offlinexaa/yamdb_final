@@ -1,10 +1,9 @@
 """Модуль содержит описание моделей."""
-from django.core.validators import MaxValueValidator, MinValueValidator
 from django.contrib.auth.models import AbstractUser
+from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
 
 from .validators import validate_year
-
 
 MAX_SCORE = 'Максимальная оценка'
 MIN_SCORE = 'Минимальная оценка'
