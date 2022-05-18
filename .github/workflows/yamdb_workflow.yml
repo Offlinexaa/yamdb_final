@@ -27,6 +27,11 @@ jobs:
       run: |
         python -m pytest
 
+on: [push]
+  brances:
+    - 'master'
+
+jobs:
   build_and_push_to_docker_hub:
     name: Builds image and push it to Docker hub
     runs-on: ubuntu-latest
