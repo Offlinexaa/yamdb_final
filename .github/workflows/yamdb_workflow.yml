@@ -71,6 +71,7 @@ jobs:
         script: |
           docker-compose stop
           docker-compose rm web
+          docker pull offlinexaa/api_yamdb:latest
           rm .env
           touch .env
           echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
