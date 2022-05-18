@@ -79,7 +79,6 @@ jobs:
           echo DB_HOST=${{ secrets.DB_HOST }} >> .env
           echo DB_PORT=${{ secrets.DB_PORT }} >> .env
           docker-compose up -d
-          rm .env
 
   notify:
     name: Send notification in Telegram
